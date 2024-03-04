@@ -1,0 +1,51 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static/bower_components/angular-animate
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static/bower_components/angular-hotkeys
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static/bower_components/angular-mocks
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static/bower_components/angular-resource
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static/bower_components/angular
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static/bower_components/bootstrap
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /rekall-gui/manuskript/static/bower_components/bootstrap/test-infra
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static/bower_components/markdown
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /rekall-gui/manuskript/static
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: daily
